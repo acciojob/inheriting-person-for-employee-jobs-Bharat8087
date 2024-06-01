@@ -1,4 +1,4 @@
-
+// JavaScript code
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -27,9 +27,14 @@ alice.greet();
 const bob = new Employee("Bob", 30, "Manager");
 bob.jobGreet();
 
-
+// Describe function
 function describe(description, callback) {
   console.log(description);
   callback();
 }
 
+// Using describe function
+describe("Code Description:", function() {
+  console.log("This code defines two classes, Person and Employee, and demonstrates inheritance in JavaScript.");
+  console.log("It also creates instances of these classes and calls their methods to display greetings.");
+});
