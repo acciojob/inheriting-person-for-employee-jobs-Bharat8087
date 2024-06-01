@@ -1,3 +1,4 @@
+
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -25,3 +26,10 @@ alice.greet();
 
 const bob = new Employee("Bob", 30, "Manager");
 bob.jobGreet();
+
+
+function describe(description, callback) {
+  console.log(description);
+  callback();
+}
+
