@@ -1,3 +1,4 @@
+
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -20,8 +21,4 @@ class Employee extends Person {
   }
 }
 
-const alice = new Person("Alice", 25);
-alice.greet();
-
-const bob = new Employee("Bob", 30, "Manager");
-bob.jobGreet();
+export { Person, Employee };
